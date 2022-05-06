@@ -1,0 +1,16 @@
+2022-05-06 18:20:52.420 UTC,,,1509,,62756704.5e5,1,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-05-06 18:20:52.420 UTC,,,1509,,62756704.5e5,2,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"starting PostgreSQL 14.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-05-06 18:20:52.421 UTC,,,1509,,62756704.5e5,3,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 18:20:52.422 UTC,,,1509,,62756704.5e5,4,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"listening on IPv4 address ""192.168.190.129"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 18:20:52.432 UTC,,,1509,,62756704.5e5,5,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-05-06 18:20:52.465 UTC,,,1514,,62756704.5ea,1,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"database system was shut down at 2022-05-06 18:19:27 UTC",,,,,,,,,"","startup",,0
+2022-05-06 18:20:52.495 UTC,,,1509,,62756704.5e5,6,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-05-06 18:21:18.351 UTC,"postgres","Stockbroker",1521,"192.168.190.1:61118",6275671e.5f1,1,"idle",2022-05-06 18:21:18 UTC,3/2,0,LOG,00000,"statement: SELECT pg_backend_pid() AS pid",,,,,,,,,"","client backend",,0
+2022-05-06 18:21:18.360 UTC,"postgres","Stockbroker",1521,"192.168.190.1:61118",6275671e.5f1,2,"idle",2022-05-06 18:21:18 UTC,3/3,0,LOG,00000,"statement: CREATE EXTENSION pgaudit;",,,,,,,,,"","client backend",,0
+2022-05-06 18:32:34.483 UTC,"postgres","Stockbroker",1548,"192.168.190.1:61124",627569c2.60c,1,"idle",2022-05-06 18:32:34 UTC,3/49,0,LOG,00000,"statement: SELECT pg_backend_pid() AS pid",,,,,,,,,"","client backend",,0
+2022-05-06 18:32:34.484 UTC,"postgres","Stockbroker",1548,"192.168.190.1:61124",627569c2.60c,2,"idle",2022-05-06 18:32:34 UTC,3/50,0,LOG,00000,"statement: set pgaudit.log = 'read,write,ddl';",,,,,,,,,"","client backend",,0
+2022-05-06 20:12:43.905 UTC,,,1509,,62756704.5e5,7,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:43.907 UTC,,,1509,,62756704.5e5,8,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:43.908 UTC,,,1509,,62756704.5e5,9,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 1520) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:43.908 UTC,,,1515,,62756704.5eb,1,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-05-06 20:12:43.942 UTC,,,1509,,62756704.5e5,10,,2022-05-06 18:20:52 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

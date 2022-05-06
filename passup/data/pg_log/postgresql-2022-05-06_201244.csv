@@ -1,0 +1,14 @@
+2022-05-06 20:12:44.054 UTC,,,1849,,6275813c.739,1,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.054 UTC,,,1849,,6275813c.739,2,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"starting PostgreSQL 14.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.054 UTC,,,1849,,6275813c.739,3,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.056 UTC,,,1849,,6275813c.739,4,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"listening on IPv4 address ""192.168.190.129"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.056 UTC,,,1849,,6275813c.739,5,,2022-05-06 20:12:44 UTC,,0,LOG,XX000,"could not bind IPv4 address ""0.0.0.0"": Address already in use",,"Is another postmaster already running on port 5432? If not, wait a few seconds and retry.",,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.056 UTC,,,1849,,6275813c.739,6,,2022-05-06 20:12:44 UTC,,0,WARNING,01000,"could not create listen socket for ""0.0.0.0""",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.066 UTC,,,1849,,6275813c.739,7,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-05-06 20:12:44.088 UTC,,,1851,,6275813c.73b,1,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"database system was shut down at 2022-05-06 20:12:43 UTC",,,,,,,,,"","startup",,0
+2022-05-06 20:12:44.108 UTC,,,1849,,6275813c.739,8,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-05-06 20:47:42.812 UTC,,,1849,,6275813c.739,9,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2022-05-06 20:47:42.814 UTC,,,1849,,6275813c.739,10,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2022-05-06 20:47:42.815 UTC,,,1849,,6275813c.739,11,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 1857) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-05-06 20:47:42.816 UTC,,,1852,,6275813c.73c,1,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-05-06 20:47:42.852 UTC,,,1849,,6275813c.739,12,,2022-05-06 20:12:44 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

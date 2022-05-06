@@ -1,0 +1,14 @@
+2022-05-06 17:46:54.389 UTC,,,1673,,62755f0e.689,1,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-05-06 17:46:54.389 UTC,,,1673,,62755f0e.689,2,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"starting PostgreSQL 14.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-05-06 17:46:54.390 UTC,,,1673,,62755f0e.689,3,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 17:46:54.391 UTC,,,1673,,62755f0e.689,4,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"listening on IPv4 address ""192.168.190.129"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 17:46:54.401 UTC,,,1673,,62755f0e.689,5,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-05-06 17:46:54.431 UTC,,,1675,,62755f0e.68b,1,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"database system was shut down at 2022-05-06 17:46:54 UTC",,,,,,,,,"","startup",,0
+2022-05-06 17:46:54.450 UTC,,,1673,,62755f0e.689,6,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.673 UTC,,,1673,,62755f0e.689,7,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"received smart shutdown request",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.691 UTC,,,1673,,62755f0e.689,8,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.692 UTC,,,1673,,62755f0e.689,9,,2022-05-06 17:46:54 UTC,,0,LOG,55P02,"parameter ""shared_preload_libraries"" cannot be changed without restarting the server",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.692 UTC,,,1673,,62755f0e.689,10,,2022-05-06 17:46:54 UTC,,0,LOG,F0000,"configuration file ""/usr/local/pgsql/data/postgresql.conf"" contains errors; unaffected changes were applied",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.692 UTC,,,1673,,62755f0e.689,11,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 1681) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-05-06 17:59:17.693 UTC,,,1676,,62755f0e.68c,1,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-05-06 17:59:17.737 UTC,,,1673,,62755f0e.689,12,,2022-05-06 17:46:54 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

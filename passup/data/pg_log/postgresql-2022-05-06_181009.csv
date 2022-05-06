@@ -1,0 +1,15 @@
+2022-05-06 18:10:09.302 UTC,,,1483,,62756481.5cb,1,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-05-06 18:10:09.302 UTC,,,1483,,62756481.5cb,2,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"starting PostgreSQL 14.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-05-06 18:10:09.302 UTC,,,1483,,62756481.5cb,3,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 18:10:09.303 UTC,,,1483,,62756481.5cb,4,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"listening on IPv4 address ""192.168.190.129"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-06 18:10:09.313 UTC,,,1483,,62756481.5cb,5,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-05-06 18:10:09.348 UTC,,,1488,,62756481.5d0,1,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"database system was shut down at 2022-05-06 17:59:17 UTC",,,,,,,,,"","startup",,0
+2022-05-06 18:10:09.378 UTC,,,1483,,62756481.5cb,6,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-05-06 18:12:37.457 UTC,"postgres","Stockbroker",1499,"192.168.190.1:61106",62756515.5db,1,"idle",2022-05-06 18:12:37 UTC,3/10,0,LOG,00000,"statement: SELECT pg_backend_pid() AS pid",,,,,,,,,"","client backend",,0
+2022-05-06 18:12:37.469 UTC,"postgres","Stockbroker",1499,"192.168.190.1:61106",62756515.5db,2,"idle",2022-05-06 18:12:37 UTC,3/11,0,LOG,00000,"statement: CREATE EXTENSION pgaudit;",,,,,,,,,"","client backend",,0
+2022-05-06 18:12:37.483 UTC,"postgres","Stockbroker",1499,"192.168.190.1:61106",62756515.5db,3,"CREATE EXTENSION",2022-05-06 18:12:37 UTC,3/11,0,ERROR,58P01,"could not open extension control file ""/usr/local/pgsql/share/extension/pgaudit.control"": No such file or directory",,,,,,"CREATE EXTENSION pgaudit;",,,"","client backend",,0
+2022-05-06 18:18:32.462 UTC,,,1483,,62756481.5cb,7,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"received fast shutdown request",,,,,,,,,"","postmaster",,0
+2022-05-06 18:18:32.464 UTC,,,1483,,62756481.5cb,8,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"aborting any active transactions",,,,,,,,,"","postmaster",,0
+2022-05-06 18:18:32.465 UTC,,,1483,,62756481.5cb,9,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 1494) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-05-06 18:18:32.465 UTC,,,1489,,62756481.5d1,1,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-05-06 18:18:32.501 UTC,,,1483,,62756481.5cb,10,,2022-05-06 18:10:09 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0
